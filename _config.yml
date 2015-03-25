@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
+title: Lvxineye's Blog
+subtitle: "每天做一点自己喜欢的事情，生活就会不一样。"
+description: "每天做一点自己喜欢的事情，生活就会不一样。"
+author: Alex Lv
 language:
 timezone:
 
@@ -62,7 +62,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: modernist
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
