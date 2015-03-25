@@ -4,21 +4,79 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   
-  <title>Lvxineye&#39;s Blog</title>
+  <title>搭建Ubuntu服务器下的Java,Play Framework,Scala环境 | Lvxineye&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
     <meta name="author" content="Alex Lv">
   
   
-  <meta name="description" content="每天做一点自己喜欢的事情，生活就会不一样。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Lvxineye's Blog">
-<meta property="og:url" content="http://lvxineye.github.io/index.html">
+    <meta name="description" content="在Mac OSX下如何在Terminal下部署Ubuntu服务器。前提是已经申请好Ubuntu服务器空间。
+
+进入服务器
+
+1$ ssh -i [ssh-key 文件目录] root@ipaddress
+
+安装解压工具unzip
+
+1$ apt-get install unzip
+
+安装openJDK
+
+1$ sudo apt-get install openjdk-6-jdk
+
+设置jdk环境变">
+  
+  <meta name="description" content="在Mac OSX下如何在Terminal下部署Ubuntu服务器。前提是已经申请好Ubuntu服务器空间。
+
+进入服务器
+
+1$ ssh -i [ssh-key 文件目录] root@ipaddress
+
+安装解压工具unzip
+
+1$ apt-get install unzip
+
+安装openJDK
+
+1$ sudo apt-get install openjdk-6-jdk
+
+设置jdk环境变">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建Ubuntu服务器下的Java,Play Framework,Scala环境">
+<meta property="og:url" content="http://lvxineye.github.io/2015/03/25/ubuntu-build-envirnment/index.html">
 <meta property="og:site_name" content="Lvxineye's Blog">
-<meta property="og:description" content="每天做一点自己喜欢的事情，生活就会不一样。">
+<meta property="og:description" content="在Mac OSX下如何在Terminal下部署Ubuntu服务器。前提是已经申请好Ubuntu服务器空间。
+
+进入服务器
+
+1$ ssh -i [ssh-key 文件目录] root@ipaddress
+
+安装解压工具unzip
+
+1$ apt-get install unzip
+
+安装openJDK
+
+1$ sudo apt-get install openjdk-6-jdk
+
+设置jdk环境变">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lvxineye's Blog">
-<meta name="twitter:description" content="每天做一点自己喜欢的事情，生活就会不一样。">
+<meta name="twitter:title" content="搭建Ubuntu服务器下的Java,Play Framework,Scala环境">
+<meta name="twitter:description" content="在Mac OSX下如何在Terminal下部署Ubuntu服务器。前提是已经申请好Ubuntu服务器空间。
+
+进入服务器
+
+1$ ssh -i [ssh-key 文件目录] root@ipaddress
+
+安装解压工具unzip
+
+1$ apt-get install unzip
+
+安装openJDK
+
+1$ sudo apt-get install openjdk-6-jdk
+
+设置jdk环境变">
   
     <link rel="alternate" href="/atom.xml" title="Lvxineye&#39;s Blog" type="application/atom+xml">
   
@@ -64,13 +122,7 @@
   </nav>
   <div class="clearfix"></div>
 </header>
-    <div class="content">
-
-
-
-
-  
-    <article class="post">
+    <div class="content"><article class="post">
   <header>
     
       <div class="icon"></div>
@@ -82,7 +134,7 @@
     
     
   
-    <h1 class="title"><a href="/2015/03/25/ubuntu-build-envirnment/">搭建Ubuntu服务器下的Java,Play Framework,Scala环境</a></h1>
+    <h1 class="title">搭建Ubuntu服务器下的Java,Play Framework,Scala环境</h1>
   
 
   </header>
@@ -141,95 +193,29 @@
 
     
   </div>
-  <footer class="end-sep">
+  <footer>
     
       
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2015/03/25/fetch-android-sdk-compoment/">
-  <time datetime="2015-03-25T07:54:27.000Z">
-    2015-03-25
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2015/03/25/fetch-android-sdk-compoment/">android studio启动时跳过fetching Android sdk compoment information方法</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>Android Studio启动时经常会停留在Fetching Android sdk compoment infromation。</p>
-<figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">-<span class="ruby"> 进入刚安装的<span class="constant">Android</span> <span class="constant">Studio</span>目录下的bin目录。找到idea.properties文件，用文本编辑器打开。</span><br><span class="line"></span>-<span class="ruby"> 在idea.properties文件末尾添加一行： disable.android.first.run=<span class="keyword">true</span> ，然后保存文件。</span><br><span class="line"></span>-<span class="ruby"> 关闭<span class="constant">Android</span> <span class="constant">Studio</span>后重新启动，便可进入界面。</span></span><br></pre></td></tr></table></figure>
-
-    
+  <div class="categories">
+    <a class="categories-link" href="/categories/Server/">Server</a>
   </div>
-  <footer class="end-sep">
-    
+
       
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2015/03/25/sublime-in-terminal/">
-  <time datetime="2015-03-25T06:03:15.000Z">
-    2015-03-25
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2015/03/25/sublime-in-terminal/">Mac OSX 在Terminal中使用sublime Text</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>在Terminal中使用<em>subl</em>来打开SublimeText</p>
-<p>下载安装好Sublime Text后，已经有了一个在终端下使用的命令:</p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ open <span class="regexp">/Applications/</span>Sublime\ Text.app<span class="regexp">/Contents/</span>SharedSupport<span class="regexp">/bin/</span>subl</span><br></pre></td></tr></table></figure>
-<p>为了能在终端的任何目录下直接使用subl来直接使用Sublime Text，只要把上面的快捷键链接到/usr/bin目录下：</p>
-<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo ln -s <span class="regexp">/Applications/</span>Sublime\ Text.app<span class="regexp">/Contents/</span>SharedSupport<span class="regexp">/bin/</span>subl <span class="regexp">/usr/</span>bin<span class="regexp">/subl</span></span><br></pre></td></tr></table></figure>
-    
+  <div class="tags">
+    <a class="tags-link" href="/tags/Java/">Java</a>, <a class="tags-link" href="/tags/Mac-OSX/">Mac OSX</a>, <a class="tags-link" href="/tags/Play-Framework/">Play Framework</a>, <a class="tags-link" href="/tags/Postgresql/">Postgresql</a>, <a class="tags-link" href="/tags/Scala/">Scala</a>, <a class="tags-link" href="/tags/Ubuntu/">Ubuntu</a>
   </div>
-  <footer class="end-sep">
-    
-      
-      
+
     
     <div class="clearfix"></div>
   </footer>
 </article>
 
 
-  
-
-  <nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav>
+<section id="comment">
+  <h1 class="title">评论</h1>
+  <div class="ds-thread" data-title="搭建Ubuntu服务器下的Java,Play Framework,Scala环境">
+  </div>
+</section>
 
 </div>
   </div>
