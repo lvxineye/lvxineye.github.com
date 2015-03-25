@@ -67,4 +67,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+type: github
+repository: git@github.com:lvxineye/lvxineye.github.com.git
+branch: master
